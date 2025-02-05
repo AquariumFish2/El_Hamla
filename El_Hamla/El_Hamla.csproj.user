@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>E:\برنامج الحملة\البرنامج\El_Hamla\El_Hamla\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="AA_acc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AA_check_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AA_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AA_pro_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AA_pro_show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AA_reb7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AA_transaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AA_trans_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="add_pro_for_2mr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Amr_examine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ezn_mahgoz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FX_cars_finish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FX_cars_sea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FX_cars_show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M_acc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M_amr_work_show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M_choose_3_BK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M_ezn_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M_hagez_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M_maghood_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M_main_BK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M_products_balance_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M_product_follow_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M_reports_choose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="parcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_buying_detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_ezn_exctueing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FX_cars3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FX_ezn_sending.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FX_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FX_Q_Choose_car.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_buyer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_tool_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_buyers_show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_buying_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_buying_show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="_perchasing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="_perchasing_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="__examine_show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="__moshcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="___cars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="___cars_show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M_choose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_enter_ unit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_enter_buyAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_enter_type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M_ezn_accepting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_ezn_show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="all_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CD_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_products_show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_receivers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_receivers_show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CD_cars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CD_car_q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CD_oil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CD_oil_q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CD_Query_q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CD__repair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CD_Repair_q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_sales_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_sales_show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M_Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_tool_history.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ST_tool_pro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

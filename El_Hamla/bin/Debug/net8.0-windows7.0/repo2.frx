@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="10/02/2024 01:09:56" ReportInfo.Modified="10/02/2024 01:37:38" ReportInfo.CreatorVersion="2024.2.0.0">
+  <Styles Name="Blue">
+    <Style Name="Title" Font="Arial, 12pt, style=Bold"/>
+    <Style Name="Header" Fill.Color="LightSkyBlue" Font="Arial, 10pt, style=Bold"/>
+    <Style Name="Group" Font="Arial, 10pt, style=Bold"/>
+    <Style Name="Data" Font="Arial, 10pt"/>
+    <Style Name="Footer" Fill.Color="LightSkyBlue" Font="Arial, 10pt"/>
+    <Style Name="EvenRows" Fill.Color="AliceBlue" Font="Arial, 10pt"/>
+  </Styles>
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlqM7gJFg/iaLrqMhRfGy5lGq7rKHc2tLYqYcrPrOaje5fR1gSlpSCt0m5iUHTQ2DntNw7nWhZOwCNYDVtdpYifUdKI2CuO1qyhg3o+J0NsphFKmFzG3pcM+FvsR8OXfNzhoqXSErPKoWjxZTprIK4zrEM46FqezZQsam39l3c0En0QlysAPLepyGz7a7jZLewG">
+      <TableDataSource Name="vw_ezn" DataType="System.Int32" Enabled="true" TableName="vw_ezn">
+        <Column Name="ezn_id" DataType="System.Int32"/>
+        <Column Name="ezn_date_time" DataType="System.DateTime"/>
+        <Column Name="car_num" DataType="System.String"/>
+        <Column Name="car_name" DataType="System.String"/>
+        <Column Name="car_add" DataType="System.String"/>
+        <Column Name="repair_man" DataType="System.String"/>
+        <Column Name="user_name" DataType="System.String"/>
+        <Column Name="ezn_status" DataType="System.String"/>
+        <Column Name="ezn_status2" DataType="System.String"/>
+        <Column Name="work_kind" DataType="System.String"/>
+        <Column Name="work_num" DataType="System.String"/>
+        <Column Name="re_name" DataType="System.String"/>
+        <Column Name="id_ezn2" DataType="System.Int32"/>
+        <Column Name="product_name" DataType="System.String"/>
+        <Column Name="quantity" DataType="System.Decimal"/>
+        <Column Name="unit" DataType="System.String"/>
+        <Column Name="type" DataType="System.String"/>
+        <Column Name="price" DataType="System.Decimal"/>
+        <Column Name="total" DataType="System.Decimal"/>
+        <Column Name="pro_add" DataType="System.String"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8"/>
+    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="28.35">
+      <TextObject Name="Text3" Width="151.2" Height="18.9" Fill.Color="LightSkyBlue" Text="ezn_date_time" Font="Arial, 10pt, style=Bold" Style="Header"/>
+      <TextObject Name="Text5" Left="151.2" Width="141.75" Height="18.9" Fill.Color="LightSkyBlue" Text="car_num" Font="Arial, 10pt, style=Bold" Style="Header"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="74.15" Width="718.2" Height="18.9" EvenStyle="EvenRows" DataSource="vw_ezn">
+      <TextObject Name="Text2" Width="151.2" Height="18.9" Text="[vw_ezn.ezn_date_time]" Font="Arial, 10pt" Style="Data"/>
+      <TextObject Name="Text4" Left="151.2" Width="141.75" Height="18.9" Text="[vw_ezn.car_num]" Font="Arial, 10pt" Style="Data"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="97.05" Width="718.2" Height="18.9"/>
+  </ReportPage>
+</Report>
